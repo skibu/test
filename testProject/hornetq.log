@@ -1,0 +1,130 @@
+09:11:46,355 DEBUG [org.jboss.logging] Logging Provider: org.jboss.logging.JBossLogManagerProvider
+09:11:46,367 DEBUG [org.jnp.interfaces.TimedSocketFactory] createSocket, hostAddr: localhost/127.0.0.1, port: 1099, localAddr: null, localPort: 0, timeout: 0
+09:11:46,389 FINE  [sun.rmi.loader] main: name = "org.jnp.server.NamingServer_Stub", codebase = "", defaultLoader = sun.misc.Launcher$AppClassLoader@24480457
+09:11:46,394 FINE  [sun.rmi.loader] main: name = "java.rmi.server.RemoteStub", codebase = "", defaultLoader = sun.misc.Launcher$AppClassLoader@24480457
+09:11:46,395 FINE  [sun.rmi.loader] main: name = "java.rmi.server.RemoteObject", codebase = "", defaultLoader = sun.misc.Launcher$AppClassLoader@24480457
+09:11:46,556 FINE  [sun.rmi.transport.tcp] main: localHostKnown = true, localHost = 10.0.1.21
+09:11:46,587 FINE  [sun.rmi.client.ref] main: get connection
+09:11:46,589 FINE  [sun.rmi.transport.tcp] main: Version = 2, ep = [10.0.1.21:0]
+09:11:46,590 FINE  [sun.rmi.transport.tcp] main: created local endpoint for socket factory null on port 0
+09:11:46,594 FINE  [sun.rmi.transport.tcp] main: create connection
+09:11:46,595 FINE  [sun.rmi.transport.tcp.proxy] main: host: 127.0.0.1, port: 1098
+09:11:46,608 FINE  [sun.rmi.loader] main: name = "java.rmi.dgc.Lease", codebase = "", defaultLoader = sun.misc.Launcher$AppClassLoader@24480457
+09:11:46,610 FINE  [sun.rmi.loader] main: name = "java.rmi.dgc.VMID", codebase = "", defaultLoader = sun.misc.Launcher$AppClassLoader@24480457
+09:11:46,612 FINE  [sun.rmi.loader] main: name = "[B", codebase = "", defaultLoader = sun.misc.Launcher$AppClassLoader@24480457
+09:11:46,613 FINE  [sun.rmi.loader] main: name = "java.rmi.server.UID", codebase = "", defaultLoader = sun.misc.Launcher$AppClassLoader@24480457
+09:11:46,615 FINE  [sun.rmi.client.ref] main: free connection (reuse = true)
+09:11:46,616 FINE  [sun.rmi.transport.tcp] main: reuse connection
+09:11:46,617 FINE  [sun.rmi.transport.tcp] main: create reaper
+09:11:46,620 FINE  [sun.rmi.transport.tcp] main: reuse connection
+09:11:46,664 FINE  [sun.rmi.loader] main: name = "javax.naming.Reference", codebase = "", defaultLoader = sun.misc.Launcher$AppClassLoader@24480457
+09:11:46,668 FINE  [sun.rmi.loader] main: name = "java.util.Vector", codebase = "", defaultLoader = sun.misc.Launcher$AppClassLoader@24480457
+09:11:46,671 FINE  [sun.rmi.loader] main: name = "[Ljava.lang.Object;", codebase = "", defaultLoader = sun.misc.Launcher$AppClassLoader@24480457
+09:11:46,672 FINE  [sun.rmi.loader] main: name = "org.hornetq.jms.referenceable.SerializableObjectRefAddr", codebase = "", defaultLoader = sun.misc.Launcher$AppClassLoader@24480457
+09:11:46,675 FINE  [sun.rmi.loader] main: name = "javax.naming.RefAddr", codebase = "", defaultLoader = sun.misc.Launcher$AppClassLoader@24480457
+09:11:46,679 FINE  [sun.rmi.loader] main: name = "[B", codebase = "", defaultLoader = sun.misc.Launcher$AppClassLoader@24480457
+09:11:46,680 FINE  [sun.rmi.client.ref] main: free connection (reuse = true)
+09:11:46,681 FINE  [sun.rmi.transport.tcp] main: reuse connection
+09:11:46,765 DEBUG [org.hornetq.core.client] Trying reconnection attempt 0/1
+09:11:46,786 DEBUG [org.hornetq.core.client] Trying to connect with connector = org.hornetq.core.remoting.impl.netty.NettyConnectorFactory@63779885, parameters = {port=5445, host=localhost} connector = NettyConnector [host=localhost, port=5445, httpEnabled=false, useServlet=false, servletPath=/messaging/HornetQServlet, sslEnabled=false, useNio=false]
+09:11:46,823 DEBUG [org.hornetq.core.client] Started Netty Connector version 3.6.2.Final-c0d783c
+09:11:46,824 DEBUG [org.hornetq.core.client] Trying to connect at the main server using connector :TransportConfiguration(name=netty, factory=org-hornetq-core-remoting-impl-netty-NettyConnectorFactory) ?port=5445&host=localhost
+09:11:46,837 DEBUG [org.hornetq.core.client] Remote destination: localhost/127.0.0.1:5445
+09:11:46,900 DEBUG [org.hornetq.core.client] Reconnection successfull
+09:11:46,914 DEBUG [org.hornetq.utils] using dummy address 73:ffffffcb:ffffff90:67:ffffffdd:-64
+09:11:46,918 DEBUG [org.hornetq.core.client] ClientSessionFactoryImpl received backup update for live/backup pair = TransportConfiguration(name=netty, factory=org-hornetq-core-remoting-impl-netty-NettyConnectorFactory) ?port=5445&host=localhost / null but it didn't belong to TransportConfiguration(name=netty, factory=org-hornetq-core-remoting-impl-netty-NettyConnectorFactory) ?port=5445&host=localhost
+09:11:46,962 FINE  [sun.rmi.transport.tcp] main: reuse connection
+09:11:46,965 FINE  [sun.rmi.loader] main: name = "javax.naming.NameNotFoundException", codebase = "", defaultLoader = sun.misc.Launcher$AppClassLoader@24480457
+09:11:46,967 FINE  [sun.rmi.loader] main: name = "javax.naming.NamingException", codebase = "", defaultLoader = sun.misc.Launcher$AppClassLoader@24480457
+09:11:46,969 FINE  [sun.rmi.loader] main: name = "java.lang.Exception", codebase = "", defaultLoader = sun.misc.Launcher$AppClassLoader@24480457
+09:11:46,974 FINE  [sun.rmi.loader] main: name = "java.lang.Throwable", codebase = "", defaultLoader = sun.misc.Launcher$AppClassLoader@24480457
+09:11:46,977 FINE  [sun.rmi.loader] main: name = "[Ljava.lang.StackTraceElement;", codebase = "", defaultLoader = sun.misc.Launcher$AppClassLoader@24480457
+09:11:46,978 FINE  [sun.rmi.loader] main: name = "java.lang.StackTraceElement", codebase = "", defaultLoader = sun.misc.Launcher$AppClassLoader@24480457
+09:11:46,981 FINE  [sun.rmi.loader] main: name = "java.util.Collections$UnmodifiableList", codebase = "", defaultLoader = sun.misc.Launcher$AppClassLoader@24480457
+09:11:46,982 FINE  [sun.rmi.loader] main: name = "java.util.Collections$UnmodifiableCollection", codebase = "", defaultLoader = sun.misc.Launcher$AppClassLoader@24480457
+09:11:46,984 FINE  [sun.rmi.loader] main: name = "java.util.ArrayList", codebase = "", defaultLoader = sun.misc.Launcher$AppClassLoader@24480457
+09:11:46,986 FINE  [sun.rmi.client.call] main: outbound call received exception: [127.0.0.1:1098] exception: : javax.naming.NameNotFoundException: TopicNameTest5XXXXXXXXX not bound
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:771) [jboss-mc.jar:]
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:779) [jboss-mc.jar:]
+	at org.jnp.server.NamingServer.getObject(NamingServer.java:785) [jboss-mc.jar:]
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:443) [jboss-mc.jar:]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) [rt.jar:1.6.0_16]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) [rt.jar:1.6.0_16]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) [rt.jar:1.6.0_16]
+	at java.lang.reflect.Method.invoke(Unknown Source) [rt.jar:1.6.0_16]
+	at sun.rmi.server.UnicastServerRef.dispatch(Unknown Source) [rt.jar:1.6.0_16]
+	at sun.rmi.transport.Transport$1.run(Unknown Source) [rt.jar:1.6.0_16]
+	at sun.rmi.transport.Transport$1.run(Unknown Source) [rt.jar:1.6.0_16]
+	at java.security.AccessController.doPrivileged(Native Method) [rt.jar:1.6.0_16]
+	at sun.rmi.transport.Transport.serviceCall(Unknown Source) [rt.jar:1.6.0_16]
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(Unknown Source) [rt.jar:1.6.0_16]
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(Unknown Source) [rt.jar:1.6.0_16]
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(Unknown Source) [rt.jar:1.6.0_16]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [rt.jar:1.6.0_16]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [rt.jar:1.6.0_16]
+	at java.lang.Thread.run(Unknown Source) [rt.jar:1.6.0_16]
+	at sun.rmi.transport.StreamRemoteCall.exceptionReceivedFromServer(Unknown Source) [rt.jar:1.6.0_16]
+	at sun.rmi.transport.StreamRemoteCall.executeCall(Unknown Source) [rt.jar:1.6.0_16]
+	at sun.rmi.server.UnicastRef.invoke(Unknown Source) [rt.jar:1.6.0_16]
+	at org.jnp.server.NamingServer_Stub.lookup(Unknown Source) [jnp-client.jar:]
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:726) [jnp-client.jar:]
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:686) [jnp-client.jar:]
+	at javax.naming.InitialContext.lookup(Unknown Source) [rt.jar:1.6.0_16]
+	at org.transitime.ipc.JMSWrapper.getTopic(JMSWrapper.java:154) [:]
+	at org.transitime.ipc.JMSWrapper.createProducer(JMSWrapper.java:188) [:]
+	at org.transitime.ipc.JMSWrapper.createTopicProducer(JMSWrapper.java:225) [:]
+	at org.transitime.ipc.JMSWrapper.main(JMSWrapper.java:267) [:]
+
+09:11:47,014 FINE  [sun.rmi.client.ref] main: free connection (reuse = true)
+09:11:47,014 FINE  [sun.rmi.transport.tcp] main: reuse connection
+09:11:47,025 DEBUG [org.hornetq.core.client] Trying reconnection attempt 0/1
+09:11:47,026 DEBUG [org.hornetq.core.client] Trying to connect with connector = org.hornetq.core.remoting.impl.netty.NettyConnectorFactory@170d9151, parameters = {port=5445, host=localhost} connector = NettyConnector [host=localhost, port=5445, httpEnabled=false, useServlet=false, servletPath=/messaging/HornetQServlet, sslEnabled=false, useNio=false]
+09:11:47,029 DEBUG [org.hornetq.core.client] Started Netty Connector version 3.6.2.Final-c0d783c
+09:11:47,030 DEBUG [org.hornetq.core.client] Trying to connect at the main server using connector :TransportConfiguration(name=beda9272-efc4-11e2-9619-73cb9067ddc0, factory=org-hornetq-core-remoting-impl-netty-NettyConnectorFactory) ?port=5445&host=localhost
+09:11:47,032 DEBUG [org.hornetq.core.client] Remote destination: localhost/127.0.0.1:5445
+09:11:47,034 DEBUG [org.hornetq.core.client] Reconnection successfull
+09:11:47,035 DEBUG [org.hornetq.core.client] ClientSessionFactoryImpl received backup update for live/backup pair = TransportConfiguration(name=beda9272-efc4-11e2-9619-73cb9067ddc0, factory=org-hornetq-core-remoting-impl-netty-NettyConnectorFactory) ?port=5445&host=localhost / null but it didn't belong to TransportConfiguration(name=beda9272-efc4-11e2-9619-73cb9067ddc0, factory=org-hornetq-core-remoting-impl-netty-NettyConnectorFactory) ?port=5445&host=localhost
+09:12:03,509 FINE  [sun.rmi.transport.tcp] main: reuse connection
+09:12:03,513 FINE  [sun.rmi.loader] main: name = "javax.naming.NameNotFoundException", codebase = "", defaultLoader = sun.misc.Launcher$AppClassLoader@24480457
+09:12:03,517 FINE  [sun.rmi.loader] main: name = "javax.naming.NamingException", codebase = "", defaultLoader = sun.misc.Launcher$AppClassLoader@24480457
+09:12:03,520 FINE  [sun.rmi.loader] main: name = "java.lang.Exception", codebase = "", defaultLoader = sun.misc.Launcher$AppClassLoader@24480457
+09:12:03,523 FINE  [sun.rmi.loader] main: name = "java.lang.Throwable", codebase = "", defaultLoader = sun.misc.Launcher$AppClassLoader@24480457
+09:12:03,526 FINE  [sun.rmi.loader] main: name = "[Ljava.lang.StackTraceElement;", codebase = "", defaultLoader = sun.misc.Launcher$AppClassLoader@24480457
+09:12:03,531 FINE  [sun.rmi.loader] main: name = "java.lang.StackTraceElement", codebase = "", defaultLoader = sun.misc.Launcher$AppClassLoader@24480457
+09:12:03,536 FINE  [sun.rmi.loader] main: name = "java.util.Collections$UnmodifiableList", codebase = "", defaultLoader = sun.misc.Launcher$AppClassLoader@24480457
+09:12:03,539 FINE  [sun.rmi.loader] main: name = "java.util.Collections$UnmodifiableCollection", codebase = "", defaultLoader = sun.misc.Launcher$AppClassLoader@24480457
+09:12:03,542 FINE  [sun.rmi.loader] main: name = "java.util.ArrayList", codebase = "", defaultLoader = sun.misc.Launcher$AppClassLoader@24480457
+09:12:03,547 FINE  [sun.rmi.client.call] main: outbound call received exception: [127.0.0.1:1098] exception: : javax.naming.NameNotFoundException: TopicNameTest5XXXXXXXXX not bound
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:771) [jboss-mc.jar:]
+	at org.jnp.server.NamingServer.getBinding(NamingServer.java:779) [jboss-mc.jar:]
+	at org.jnp.server.NamingServer.getObject(NamingServer.java:785) [jboss-mc.jar:]
+	at org.jnp.server.NamingServer.lookup(NamingServer.java:443) [jboss-mc.jar:]
+	at sun.reflect.GeneratedMethodAccessor24.invoke(Unknown Source) [:1.6.0_16]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) [rt.jar:1.6.0_16]
+	at java.lang.reflect.Method.invoke(Unknown Source) [rt.jar:1.6.0_16]
+	at sun.rmi.server.UnicastServerRef.dispatch(Unknown Source) [rt.jar:1.6.0_16]
+	at sun.rmi.transport.Transport$1.run(Unknown Source) [rt.jar:1.6.0_16]
+	at sun.rmi.transport.Transport$1.run(Unknown Source) [rt.jar:1.6.0_16]
+	at java.security.AccessController.doPrivileged(Native Method) [rt.jar:1.6.0_16]
+	at sun.rmi.transport.Transport.serviceCall(Unknown Source) [rt.jar:1.6.0_16]
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(Unknown Source) [rt.jar:1.6.0_16]
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(Unknown Source) [rt.jar:1.6.0_16]
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(Unknown Source) [rt.jar:1.6.0_16]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [rt.jar:1.6.0_16]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [rt.jar:1.6.0_16]
+	at java.lang.Thread.run(Unknown Source) [rt.jar:1.6.0_16]
+	at sun.rmi.transport.StreamRemoteCall.exceptionReceivedFromServer(Unknown Source) [rt.jar:1.6.0_16]
+	at sun.rmi.transport.StreamRemoteCall.executeCall(Unknown Source) [rt.jar:1.6.0_16]
+	at sun.rmi.server.UnicastRef.invoke(Unknown Source) [rt.jar:1.6.0_16]
+	at org.jnp.server.NamingServer_Stub.lookup(Unknown Source) [jnp-client.jar:]
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:726) [jnp-client.jar:]
+	at org.jnp.interfaces.NamingContext.lookup(NamingContext.java:686) [jnp-client.jar:]
+	at javax.naming.InitialContext.lookup(Unknown Source) [rt.jar:1.6.0_16]
+	at org.transitime.ipc.JMSWrapper.getTopic(JMSWrapper.java:165) [:]
+	at org.transitime.ipc.JMSWrapper.createProducer(JMSWrapper.java:188) [:]
+	at org.transitime.ipc.JMSWrapper.createTopicProducer(JMSWrapper.java:225) [:]
+	at org.transitime.ipc.JMSWrapper.main(JMSWrapper.java:267) [:]
+
+09:12:03,606 FINE  [sun.rmi.client.ref] main: free connection (reuse = true)
+09:12:03,608 FINE  [sun.rmi.transport.tcp] main: reuse connection
+09:12:31,621 FINE  [sun.rmi.transport.tcp] RMI Scheduler(0): close connection

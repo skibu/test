@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src/main/java"/>
+	<classpathentry kind="lib" path="C:/Users/Mike/software/libs/logback-classic-1.0.13.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Mike/software/libs/logback-core-1.0.13.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Mike/software/libs/slf4j-api-1.7.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Mike/software/libs/javax.mail.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Mike/software/libs/hornetq-core-client.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Mike/software/libs/hornetq-jms-client.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Mike/software/libs/jboss-jms-api.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Mike/software/libs/jnp-client.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Mike/software/libs/netty.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Mike/software/libs/jboss-mc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Mike/software/libs/hornetq-commons.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Mike/software/libs/jcip-annotations.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Mike/software/libs/jdom-2.0.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Mike/software/libs/hibernate-core-4.2.2.Final.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="http://docs.jboss.org/hibernate/orm/4.2/javadocs/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Mike/software/libs/hibernate-commons-annotations-4.0.2.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Mike/software/libs/lucene-core-3.6.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Mike/software/libs/antlr-2.7.7.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Mike/software/libs/javassist-3.15.0-GA.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Mike/software/libs/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Mike/software/libs/jackson-core-asl-1.9.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Mike/software/libs/jackson-mapper-asl-1.9.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Mike/software/libs/snappy-java-1.0.4.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Mike/software/libs/avro-1.6.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Mike/software/libs/paranamer-2.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Mike/software/libs/jboss-logging-3.1.0.GA.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Mike/software/libs/hibernate-jpa-2.0-api-1.0.1.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Mike/software/libs/jta-1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Mike/software/libs/hibernate-c3p0-4.2.4.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Mike/software/libs/c3p0-0.9.2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Mike/software/libs/mchange-commons-java-0.2.3.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Mike/software/libs/mysql-connector-java-5.1.26-bin.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Mike/software/libs/commons-cli-1.2.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="http://commons.apache.org/proper/commons-cli/javadocs/api-release/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Mike/software/libs/commons-csv-1.0-20130901.142050-232.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Mike/software/libs/com.google.protobuf-2.4.0.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
